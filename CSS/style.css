@@ -1,0 +1,154 @@
+body {
+  padding-left: 11em;
+  font-family: Georgia, "Times New Roman",
+        Times, serif;  
+  color: #003333;
+  background-color: #CCCCFF }
+ul.navbar {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  top: 2em;
+  left: 1em;
+  width: 9em }
+h1 {
+  font-family: Helvetica, Geneva, Arial,
+        SunSans-Regular, sans-serif; color:#336699}
+h1.frm {
+  font-family: "Segoe UI", Geneva, Arial,
+        SunSans-Regular, sans-serif; color:blue;
+		text-align:center;height:25px
+}
+
+ul.navbar li {
+  background: #CCFF99  ;
+  margin: 0.5em 0;
+  padding: 0.3em;
+  border-right: 1em solid green }
+ul.navbar a {
+  text-decoration: underline }
+a:link {
+  color: #336600 }
+a:visited {
+  color: #660033  }
+address {
+  margin-top: 1em;
+  font-family:;
+  font-size: x-small;
+  font-style:Segoe;
+  padding-top: 1em;
+  border-top: thin dotted }
+p.dotted {border-style: dotted;}
+p.dashed {border-style: dashed;}
+
+.button {
+  border: none;
+  color: #8E24AA;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: #E1F5FE;
+  color: black;
+  border: 2px solid #4DD0E1;
+}
+
+.button1:hover {
+  background-color: #A5D6A7 ;
+  color:#A5D6A7 ;
+}
+
+form {
+  margin: 0 auto;
+  padding: 1em;
+  border: 1px solid #C2185B;
+  border-radius: 1em;
+  background-color: white ;
+  color: #283593 ;
+}
+
+
+input.info{
+  width: 300px;	
+}
+
+
+ textarea {
+  font: 1em sans-serif;
+  /* Ancho */
+  width: 100%;
+  box-sizing: border-box;
+  vertical-align: top;
+  height: 3em;
+}
+
+input:focus, textarea:focus {
+  /* al recibir el enfoque se resalta el elemento input */
+   border-color: #000;
+   background-color: lightblue	;
+}
+
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid lightgray; 
+}
+
+div.frmTitle {
+  display: flex;
+  border-radius: 8px;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid lightgray; 
+  background-color: white;
+}
+
+div.polaroid {
+  width: 20%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 10px;
+  margin-left: 240px;
+}
+
+div.container {
+  text-align: center;
+  padding: 1px 2px;
+}
+
+td, th {
+  border: 1px solid gray;
+  padding: 5px;
+}
+td{
+  background: #F3E5F5;
+  color: #1A237E ;
+}
+
+ th {
+  background: #AB47BC;
+  color: white;
+  border-radius: 0;
+  top: 0;
+  padding: 5px;
+}
+
+Footer { 
+margin-top: 0em;
+  font-size: medium;
+  padding-top: 5em
+  
+p.dotted {border-style: dotted;}
+p.dashed {border-style: dashed;}
+
+}
